@@ -6,7 +6,10 @@
                 <div class="post-slide col-sm-3">
 
                     <div class="post-img">
-                        <img ng-src="{{vatPham.imgSanPham}}" alt="">
+                        <div style="height:263px;overflow:hidden">
+                            <img ng-src="{{vatPham.imgSanPham}}" alt="">
+                        </div>
+                        
                         <span class="icons">
                             <img ng-src="{{vatPham.imgNguoiBan}}" alt="">
                         </span>
@@ -24,7 +27,7 @@
                             <span class="basis_price">{{vatPham.giaGiam}}đ </span>
                         </p>
                         <p class="post-description">{{vatPham.description}}</p>
-                        <a href="{{'#/vatPham/'+vatPham.idVatPham}}" class="read">Xem chi tiết<i class="fa fa-angle-right"></i></a>
+                        <a href="{{'#/vatPham/chiTiet/'+vatPham.idVatPham}}" class="read">Xem chi tiết<i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
