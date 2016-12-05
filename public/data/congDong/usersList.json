@@ -1,0 +1,67 @@
+{
+	"usersList": [
+		{
+			"username": "barackobama",
+			"fullName": "Barack Obama",
+			"profilePicture": "../../img/congDong/barackobama.png",
+      "dob": "04/08/1961",
+      "addr": "White House",
+      "occupation": "President of America",
+			"rating": 10
+		},
+		{
+			"username": "michelleobama",
+			"fullName": "Michelle Obama",
+			"profilePicture": "../../img/congDong/michelleobama.jpg",
+      "dob": "17/01/1964",
+      "addr": "White House",
+      "occupation": "First Lady of America",
+			"rating": 8
+		},
+		{
+			"username": "djtrump",
+			"fullName": "Donald J. Trump",
+			"profilePicture": "../../img/congDong/djtrump.jpg",
+      "dob": "19/06/1946",
+      "addr": "White House",
+      "occupation": "President of America",
+			"rating": 9
+		},
+		{
+			"username": "hlrclinton",
+			"fullName": "Hillary Clinton",
+			"profilePicture": "../../img/congDong/hlrclinton.jpg",
+      "dob": "26/10/1947",
+      "addr": "near White House",
+      "occupation": "Almost President of America",
+			"rating": 7
+		},
+		{
+			"username": "vlaputin",
+			"fullName": "Vladimir Vladimirovich Putin",
+			"profilePicture": "../../img/congDong/vladputin.jpg",
+      "dob": "07/10/1952",
+      "addr": "Russia",
+      "occupation": "President of Russia",
+			"rating": 7
+		},
+		{
+			"username": "donnieyen",
+			"fullName": "Donnie Yen",
+			"profilePicture": "../../img/congDong/donnieyen.jpg",
+      "dob": "27/07/1963",
+      "addr": "Hong Kong",
+      "occupation": "Actor",
+			"rating": 6
+		},
+		{
+			"username": "jackiechen",
+			"fullName": "Jackie Chen",
+			"profilePicture": "../../img/congDong/jackiechen.jpg",
+      "dob": "07/04/1954",
+      "addr": "China",
+      "occupation": "Actor/Director",
+			"rating": 6
+		}
+	]
+}

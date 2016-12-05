@@ -5,6 +5,10 @@ angular.module('g3cApp.congDong',['ngRoute'])
 		$routeProvider.when('/congdong',{
 			controller:'congDongCtrl',
 			templateUrl:'html/congdong/congdong.html'
-		});
+		})
+      .when('/congdong/:username', {
+      controller: 'userProfileCtrl',
+      templateUrl:'html/congdong/user-profile.html'
+    });
 	}]);
 

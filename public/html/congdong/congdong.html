@@ -4,9 +4,9 @@
 			<h2 class="page-header text-center">TOP 3 Thành viên</h2>
 			<div class="user-top-month" ng-controller="getTopUserCtrl as gtu">
 				<div ng-repeat="user in usersTop" class="col-md-12 text-center">
-					<img ng-src="{{user.profilePicture}}" alt="avatar" class="user-avatar">								
-					<p><a class="btn btn-viewdetail" href="#" role="button">{{user.fullName}}</a></p>
-				</div>				
+					<img ng-src="{{user.profilePicture}}" alt="avatar" class="user-avatar">
+					<p><a class="btn btn-viewdetail" href="#/congdong/{{user.username}}" role="button">{{user.fullName}}</a></p>
+				</div>
 				<div class="col-md-12 text-center">
 					<p><a class="btn btn-viewdetail" href="#" role="button">Xem thêm</a></p>
 				</div>
@@ -68,7 +68,7 @@
 			<div class="row user-status">
 				<div class="status-box">
 					<div class="col-md-1 text-center">
-						<img src="img/user-128.png" width="50" height="50">	
+						<img src="img/user-128.png" width="50" height="50">
 					</div>
 					<div class="col-md-10">
 						<textarea class="status" placeholder="Share your status"></textarea>
@@ -108,7 +108,7 @@
 							<i class="fa fa-heart"></i> {{post.likes}} <i class="fa fa-comments"></i> {{post.comments}} <i class="fa fa-share"></i> {{post.shares}}
 						</div>
 					</div>
-				</div>				
+				</div>
 			</div>
 		</div> <!-- col-md-6 -->
 		<div class="col-md-3 product">

@@ -1,0 +1,55 @@
+@import "variables";
+
+@mixin border ($width){
+  border: $width solid $avatar-border-color;
+  border-radius: 50%;
+}
+
+.user-cover {
+  //display: table;
+  position: relative;
+  //width: 100%;
+  //height: 100%;
+  .cover-img {
+    max-height: 250px;
+    img {
+      width: 100%;
+      height: 160%;
+    }
+  }
+  .user-profile-display {
+    //display: table-cell;
+    margin: auto;
+    text-align: center;
+    vertical-align: bottom;
+    img {
+      position: relative;
+      z-index: auto;
+      width: $big-avatar-width;
+      height: $big-avatar-height;
+      @include border($big-avatar-border-width);
+    }
+    .user-display-name {
+      color: $display-name-color;
+      line-height: $display-name-line-height;
+    }
+  }
+  hr.small {
+    max-width: $hr-small;
+    border-color: #cccccc;
+  }
+}
+.user-wall {
+  .user-background-info {
+    border-left: 1px solid #cccccc;
+  }
+  .user-posts {
+    .post {
+      width: 100%;
+      .post-pic>img {
+        height: 100%;
+      }
+    }
+  }
+}
+
